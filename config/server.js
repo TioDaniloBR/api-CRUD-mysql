@@ -12,7 +12,6 @@ consign()
 .include('./app/routes')
 .then('./app/repository')
 .then('./app/controllers')
-.then('./app/services')
 .then('./config/knexfile.js')
 .into(app);
 
