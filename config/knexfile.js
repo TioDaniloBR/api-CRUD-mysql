@@ -4,8 +4,12 @@ module.exports = {
         connection: {
             host: 'localhost',
             user: 'root',
-            password: '',
+            password: '123456',
             database: 'knex'
-        }
+        },
+        migrations: {
+            directory: './migrations',
+            tableName: 'knex_migrations',
+          },
     }
 }
